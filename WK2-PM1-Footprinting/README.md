@@ -224,7 +224,7 @@ The HTTP response headers revealed information about the web server, content typ
 
 These headers provide useful reconnaissance information about the externally visible HTTP configuration.
 
-> ⚠️ **Security Note:** The original command output contained a cookie value. The value should be redacted before publishing the raw output or screenshot to a public repository.
+> ⚠️ **Security Note:** Sensitive cookie values have been redacted from the screenshot/output for privacy and security.
 
 ## 📸 Screenshot
 
