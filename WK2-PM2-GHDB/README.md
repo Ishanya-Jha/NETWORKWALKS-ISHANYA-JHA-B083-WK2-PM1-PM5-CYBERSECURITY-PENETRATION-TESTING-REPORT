@@ -7,25 +7,6 @@
 
 ---
 
-## 📌 Project Information
-
-| Category | Details |
-|---|---|
-| 🎓 **Program** | Cybersecurity Internship |
-| 🏢 **Organization** | NetworkWalks |
-| 📅 **Training Week** | Week 2 |
-| 🧪 **Project Module** | W2-PM2 |
-| 🔎 **Module Title** | Footprinting & Reconnaissance Attacks with GHDB |
-| 🛠️ **Primary Technique** | Google Hacking Database (GHDB) & Google Dorking |
-| 🔍 **Security Focus** | Passive Footprinting & Reconnaissance |
-| 📚 **Tasks Completed** | 2 |
-| 📊 **Evidence** | Screenshots, text-based results, tables, and PDF report |
-| 🔐 **Testing Approach** | Passive reconnaissance |
-| ⚖️ **Methodology** | Authorized, ethical, and responsible security research |
-| 🎯 **Learning Focus** | Search-engine reconnaissance, information exposure, and responsible OSINT practices |
-
----
-
 ## 🎯 Objective
 
 The objective of this module was to understand how Google Hacking Database (GHDB) search operators and Google dorks can be used during footprinting and reconnaissance to identify publicly indexed resources.
@@ -170,3 +151,22 @@ This module demonstrated the use of Google Hacking Database techniques and Googl
 The activities highlighted how publicly indexed information can reveal web resources and documents while demonstrating the importance of responsible, authorized, and ethical security testing.
 
 The module also provided practical experience in using search operators, documenting reconnaissance findings, protecting sensitive information, and understanding the security implications of publicly indexed resources.
+
+---
+
+## 📌 Project Information
+
+| Category | Details |
+|---|---|
+| 🎓 **Program** | Cybersecurity Internship |
+| 🏢 **Organization** | NetworkWalks |
+| 📅 **Training Week** | Week 2 |
+| 🧪 **Project Module** | W2-PM2 |
+| 🔎 **Module Title** | Footprinting & Reconnaissance Attacks with GHDB |
+| 🛠️ **Primary Technique** | Google Hacking Database (GHDB) & Google Dorking |
+| 🔍 **Security Focus** | Passive Footprinting & Reconnaissance |
+| 📚 **Tasks Completed** | 2 |
+| 📊 **Evidence** | Screenshots, text-based results, tables, and PDF report |
+| 🔐 **Testing Approach** | Passive reconnaissance |
+| ⚖️ **Methodology** | Authorized, ethical, and responsible security research |
+| 🎯 **Learning Focus** | Search-engine reconnaissance, information exposure, and responsible OSINT practices |
