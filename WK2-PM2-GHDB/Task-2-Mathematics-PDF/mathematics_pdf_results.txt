@@ -1,0 +1,12 @@
+| No. | Link | Relevant Dork | Username / Password (if any) |
+|---:|---|---|---|
+| 1 | http://inis.jinr.ru/sl/vol2/Mathematics/Math.Encyclopedia/Pdf/ | `intitle:index.of "parent directory" mathematics pdf` | --- |
+| 2 | http://erewhon.superkuh.com/library/Math/ | `intitle:index.of "parent directory" mathematics pdf` | --- |
+| 3 | https://sajaipuriacollege.ac.in/pdf/pdf/MATHEMATICS/ | `intitle:index.of "parent directory" mathematics pdf` | --- |
+| 4 | https://www.unm.edu/~megrad/Math/ | `intitle:index.of "parent directory" mathematics pdf` | --- |
+| 5 | https://www.netlib.org/math/docpdf/ | `intitle:index.of "parent directory" mathematics pdf` | --- |
+| 6 | https://www.wvfa.org/pdf/projectLearningTree/ | `intitle:index.of "parent directory" mathematics pdf` | --- |
+| 7 | https://ochicken.net/library/Mathematics/ | `intitle:index.of "parent directory" mathematics pdf` | --- |
+| 8 | https://education.giakonda.org.uk/Maths/?SD | `intitle:index.of "parent directory" mathematics pdf` | --- |
+| 9 | https://www.learn-fo.com/FYUG%20mathematics%20solutions/?SD | `intitle:index.of "parent directory" mathematics pdf` | --- |
+| 10 | https://math.dartmouth.edu/~carlp/PDF/ | `intitle:index.of "parent directory" mathematics pdf` | --- |
