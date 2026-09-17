@@ -1,0 +1,51 @@
+TASK 1 - GHDB SECURITY CAMERA RECONNAISSANCE
+
+No. 1
+Link: http://122.116.41.8:8080/
+Relevant Dork: intitle:"webcamXP" inurl:8080
+Username/Password: ---
+
+No. 2
+Link: https://www.lmc.edu/webcam.htm
+Relevant Dork: intitle:"Webcam" inurl:WebCam.htm
+Username/Password: ---
+
+No. 3
+Link: https://tuwebcam.towson.edu/index.html
+Relevant Dork: intitle:"Webcam" inurl:WebCam.htm
+Username/Password: ---
+
+No. 4
+Link: https://www.nps.gov/subjects/air/webcams.htm?site=dena
+Relevant Dork: intitle:"Webcam" inurl:WebCam.htm
+Username/Password: ---
+
+No. 5
+Link: https://pixelheal.bandcamp.com/album/intitle-toshiba-network-camera-user-login
+Relevant Dork: intitle:"Toshiba Network Camera"
+Username/Password: Cookies / login required
+
+No. 6
+Link: http://99.114.240.169:8080/
+Relevant Dork: intitle:"Webcam" inurl:WebCam.htm
+Username/Password: ---
+
+No. 7
+Link: https://www.shodan.io/search?query=webcam
+Relevant Dork: intitle:"Webcam" inurl:WebCam.htm
+Username/Password: Login required
+
+No. 8
+Link: https://www.skylinewebcams.com/webcam/italia/lazio/roma/piazza-di-spagna.html
+Relevant Dork: inurl:webcam site:skylinewebcams.com inurl:roma
+Username/Password: ---
+
+No. 9
+Link: https://www.skylinewebcams.com/webcam/italia/lazio/roma/fontana-di-trevi.html
+Relevant Dork: inurl:webcam site:skylinewebcams.com inurl:roma
+Username/Password: ---
+
+No. 10
+Link: https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-colosseo.html
+Relevant Dork: inurl:webcam site:skylinewebcams.com inurl:roma
+Username/Password: ---
