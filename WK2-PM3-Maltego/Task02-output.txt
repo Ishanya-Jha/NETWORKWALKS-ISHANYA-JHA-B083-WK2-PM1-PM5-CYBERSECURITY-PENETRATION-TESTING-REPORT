@@ -1,2 +1,26 @@
-[9/17/26, 11:47 PM] INFO Running transform [Utilities] To Emails @domain [Search Engine] on 1 entities (from entity "networkwalks.com")
-[9/17/26, 11:48 PM] INFO ---[ Unified Credits ]--- : You have consumed 30 credits. You have 170 credits remaining. New period starts after October 1, 2026, 12:00:00 AM Z.Please visit app.maltego.com for more information (from entity "networkwalks.com")
+W2-PM3-MALTEGO
+Task 2: Find Email Addresses Related to networkwalks.com
+
+==================================================
+MALTEGO TRANSFORM OUTPUT
+==================================================
+
+[9/17/26, 11:47 PM]
+INFO Running transform [Utilities] To Email Addresses [Search Engine]
+on 1 entities (from entity "networkwalks.com")
+
+[9/17/26, 11:48 PM]
+INFO ---[ Unified Credits ]--- :
+You have consumed 30 credits.
+You have 170 credits remaining.
+New period starts after October 1, 2026, 12:00:00 AM Z.
+
+Transform:
+Utilities → To Email Addresses [Search Engine]
+
+Entity:
+networkwalks.com
+
+Status:
+Transform initiated successfully.
+==================================================
