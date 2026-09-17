@@ -39,7 +39,7 @@ The module focused on installing and configuring Maltego and performing email-ad
 
 The first task involved downloading, installing, and configuring **Maltego** on a Windows computer.
 
-The following activities were completed:
+### Activities Completed
 
 - 💻 Downloaded Maltego
 - ⚙️ Installed the Maltego application
@@ -90,11 +90,13 @@ The collected Maltego transform logs are available here:
 
 ## 🎥 Video Demonstration
 
-A demonstration of the PM3 Maltego workflow and activities is included below:
+A demonstration of the PM3 Maltego workflow and activities is included below.
 
-▶️ **[Watch PM3 Maltego Demonstration](./PM3-maltegp.mp4)**
+<video src="./PM3-maltego.mp4" controls width="900"></video>
 
-The video provides additional evidence of the practical work performed during this module.
+> **Note:** GitHub may not render the HTML video player directly in every README view. If the player is not displayed, the video file can be opened from the repository.
+
+🎬 **[Open PM3 Maltego Video](./PM3-maltego.mp4)**
 
 ---
 
@@ -145,7 +147,7 @@ The activities in this module were performed as part of an authorized cybersecur
 W2-PM3-Maltego/
 │
 ├── README.md
-├── PM3-maltegp.mp4
+├── PM3-maltego.mp4
 │
 ├── screenshots/
 │   ├── screenshot-Task01.png
@@ -160,6 +162,6 @@ W2-PM3-Maltego/
 
 This module provided practical experience with **Maltego** for footprinting and passive reconnaissance.
 
-The activities covered Maltego installation and configuration, creation of a domain entity, execution of email-related transforms, and documentation of the resulting activity through screenshots, logs, and a demonstration video.
+The activities covered Maltego installation and configuration, creation of a domain entity, execution of email-related transforms, and documentation of the practical work through screenshots, logs, and a demonstration video.
 
 The exercise improved practical understanding of how graphical reconnaissance tools can be used to organize and investigate publicly available information during an authorized security assessment.
