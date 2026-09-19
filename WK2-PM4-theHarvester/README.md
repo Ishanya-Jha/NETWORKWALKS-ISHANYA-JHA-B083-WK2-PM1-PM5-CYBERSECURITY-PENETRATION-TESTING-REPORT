@@ -60,11 +60,11 @@ This command was used to perform passive reconnaissance against the assigned dom
 
 ### 📸 Evidence
 
-![theHarvester Task 1](./theHarvester_task_01.png)
+![theHarvester Task 1 Output](./theHarvester-01.png)
 
 **Figure 1: theHarvester Task 1 execution**
 
-![theHarvester Task 1 Output](./theHarvester-01.png)
+![theHarvester Task 1](./theHarvester_task_01.png)
 
 **Figure 2: theHarvester reconnaissance output**
 
