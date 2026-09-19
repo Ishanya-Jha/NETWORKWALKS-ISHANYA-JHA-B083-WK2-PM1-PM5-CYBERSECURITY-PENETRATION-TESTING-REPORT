@@ -28,7 +28,7 @@ The Week 2 activities focused on:
 - Zenmap / Nmap
 - Security documentation and evidence collection
 
-All activities were performed within the assigned educational and authorized scope.
+All activities were performed within the assigned educational scope.
 
 ---
 
@@ -202,31 +202,33 @@ Output:
 
 ## 📂 W2-PM1 Repository Structure
 
-    WK2-PM1-Footprinting/
-    ├── Task-1-WHOIS/
-    │   ├── screenshot_whois.png
-    │   └── whois_networkwalks.txt
-    │
-    ├── Task-2-WhatWeb/
-    │   ├── screenshot_WhatWeb.png
-    │   └── whatweb_networkwalks.txt
-    │
-    ├── Task-3-NSLookup/
-    │   ├── nslookup_networkwalks.txt
-    │   └── screenshot_NSLookup.png
-    │
-    ├── Task-4-cURL/
-    │   ├── curl_networkwalks.txt
-    │   └── screenshot_cURL.png
-    │
-    ├── Task-5-Wafw00f/
-    │   ├── screenshot_WafW00f.png
-    │   └── wafw00f_networkwalks.txt
-    │
-    └── Task-6-DNSRecon/
-        ├── README.md
-        ├── screenshot_DNSRecon.png
-        └── dnsrecon_networkwalks.txt
+```text
+WK2-PM1-Footprinting/
+├── Task-1-WHOIS/
+│   ├── screenshot_whois.png
+│   └── whois_networkwalks.txt
+│
+├── Task-2-WhatWeb/
+│   ├── screenshot_WhatWeb.png
+│   └── whatweb_networkwalks.txt
+│
+├── Task-3-NSLookup/
+│   ├── nslookup_networkwalks.txt
+│   └── screenshot_NSLookup.png
+│
+├── Task-4-cURL/
+│   ├── curl_networkwalks.txt
+│   └── screenshot_cURL.png
+│
+├── Task-5-Wafw00f/
+│   ├── screenshot_WafW00f.png
+│   └── wafw00f_networkwalks.txt
+│
+└── Task-6-DNSRecon/
+    ├── README.md
+    ├── screenshot_DNSRecon.png
+    └── dnsrecon_networkwalks.txt
+```
 
 ---
 
@@ -286,14 +288,16 @@ Supporting documentation:
 
 ## 📂 W2-PM2 Repository Structure
 
-    WK2-PM2-GHDB/
-    ├── Task-1-GHDB/
-    │   ├── ghdb_live_cam_result.txt
-    │   └── ghdb_screenshot.png
-    │
-    └── Task-2-Mathematics-PDF/
-        ├── README.md
-        └── W2-PM2 -Footprinting-&-Reconnaissance-with-GHDB-TABLE.pdf
+```text
+WK2-PM2-GHDB/
+├── Task-1-GHDB/
+│   ├── ghdb_live_cam_result.txt
+│   └── ghdb_screenshot.png
+│
+└── Task-2-Mathematics-PDF/
+    ├── README.md
+    └── W2-PM2 -Footprinting-&-Reconnaissance-with-GHDB-TABLE.pdf
+```
 
 ---
 
@@ -322,7 +326,7 @@ W2-PM3 introduced **Maltego** as a reconnaissance and information-gathering plat
 The module focused on:
 
 1. Installing and using Maltego.
-2. Performing email reconnaissance against the authorized domain `networkwalks.com`.
+2. Performing email reconnaissance against the assigned domain `networkwalks.com`.
 
 ---
 
@@ -390,16 +394,18 @@ The video documents the execution of the assigned Task 2 workflow.
 
 ## 📂 W2-PM3 Repository Structure
 
-    WK2-PM3-Maltego/
-    ├── PM3-maltego.mp4
-    ├── README.md
-    ├── Task-01.png
-    ├── Task02-output.txt
-    ├── maltego Task02-1.png
-    ├── maltego Task02-2.png
-    ├── maltego Task02-3.png
-    ├── maltego Task02-4.png
-    └── maltego Task02-5.png
+```text
+WK2-PM3-Maltego/
+├── PM3-maltego.mp4
+├── README.md
+├── Task-01.png
+├── Task02-output.txt
+├── maltego Task02-1.png
+├── maltego Task02-2.png
+├── maltego Task02-3.png
+├── maltego Task02-4.png
+└── maltego Task02-5.png
+```
 
 ---
 
@@ -424,7 +430,7 @@ The activity was performed only against the assigned domain.
 
 ## 📌 Overview
 
-W2-PM4 focused on using **theHarvester** for email and subdomain reconnaissance.
+W2-PM4 focused on using **theHarvester** for passive reconnaissance and information gathering.
 
 The assigned target domain was:
 
@@ -434,61 +440,160 @@ Two reconnaissance tasks were performed.
 
 ---
 
-## 📝 Task 1: Baidu Source
+## 🎯 Objectives
 
-theHarvester was used with the Baidu source and a limit of 1000 results.
+The objectives of this module were to:
 
-Command used:
-
-    theHarvester -d microsoft.com -l 1000 -b baidu
-
-### Evidence
-
-![theHarvester Task 1](./WK2-PM4-theHarvester/img/theHarvester_task_01.png)
-
-### Task 1 Output
-
-![theHarvester Task 1 Output](./WK2-PM4-theHarvester/img/theHarvester-01.png)
+- Learn the basic usage of **theHarvester**.
+- Perform passive reconnaissance against an assigned domain.
+- Identify publicly available email addresses.
+- Identify publicly available subdomains and hostnames.
+- Understand how different search sources affect reconnaissance results.
+- Compare reconnaissance results obtained using different sources and search limits.
+- Document execution and results using screenshots.
 
 ---
 
-## 📝 Task 2: All Sources
+## 📝 Task 1: Reconnaissance Using Baidu
 
-theHarvester was used with all supported sources and a limit of 50 results.
+The first task used theHarvester with the **Baidu** search source and a result limit of **1000**.
 
-Command used:
+### Command Used
 
-    theHarvester -d microsoft.com -l 50 -b all
+```bash
+theHarvester -d microsoft.com -l 1000 -b baidu
+```
 
-### Evidence
+### Purpose
 
-![theHarvester Task 2](./WK2-PM4-theHarvester/img/theHarvester_task_02.png)
+This command was used to perform passive reconnaissance against the assigned domain and collect publicly available information indexed through the selected source.
 
-### Task 2 Output
+### 📸 Evidence
 
-![theHarvester Task 2 Output](./WK2-PM4-theHarvester/img/theHarvester_task_02_output.png)
+![theHarvester Task 1 Output](./WK2-PM4-theHarvester/theHarvester-01.png)
+
+**Figure 1: theHarvester Task 1 execution**
+
+![theHarvester Task 1](./WK2-PM4-theHarvester/theHarvester_task_01.png)
+
+**Figure 2: theHarvester reconnaissance output**
+
+---
+
+## 📝 Task 2: Reconnaissance Using All Sources
+
+The second task used theHarvester with **all available supported sources** and a result limit of **50**.
+
+### Command Used
+
+```bash
+theHarvester -d microsoft.com -l 50 -b all
+```
+
+### Purpose
+
+This task demonstrates how using multiple passive information sources can produce a broader reconnaissance dataset.
+
+### 📸 Evidence
+
+![theHarvester Task 2](./WK2-PM4-theHarvester/theHarvester_task_02.png)
+
+**Figure 3: theHarvester Task 2 execution**
+
+![theHarvester Task 2 Output](./WK2-PM4-theHarvester/theHarvester_task_02_output.png)
+
+**Figure 4: theHarvester Task 2 output**
 
 ---
 
 ## 📂 W2-PM4 Repository Structure
 
-    WK2-PM4-theHarvester/
-    ├── README.md
-    └── img/
-        ├── theHarvester-01.png
-        ├── theHarvester_task_01.png
-        ├── theHarvester_task_02.png
-        └── theHarvester_task_02_output.png
+```text
+WK2-PM4-theHarvester/
+├── README.md
+├── theHarvester-01.png
+├── theHarvester_task_01.png
+├── theHarvester_task_02.png
+└── theHarvester_task_02_output.png
+```
 
 ---
 
-## 🔐 W2-PM4 Security Relevance
+## 🔍 Methodology
 
-theHarvester demonstrates how publicly available information can be collected from multiple sources during reconnaissance.
+The module followed a passive reconnaissance methodology:
 
-The information gathered through such techniques can contribute to understanding an organization's external footprint.
+1. Identify the assigned target domain.
+2. Execute theHarvester using the specified search source.
+3. Set the required result limit.
+4. Observe publicly available reconnaissance information.
+5. Repeat the process using the required source configuration.
+6. Capture screenshots as evidence.
+7. Document the activities and observations.
 
-Results from public sources may change over time, so the output represents the state observed during the exercise.
+No exploitation or unauthorized access was performed.
+
+---
+
+## 🛡️ Security & Ethical Considerations
+
+The activities in this module were performed as part of an educational cybersecurity training exercise.
+
+The following principles were followed:
+
+- Reconnaissance was performed only against the assigned domain.
+- No attempt was made to gain unauthorized access.
+- No passwords or authentication mechanisms were bypassed.
+- No exploitation was performed.
+- No denial-of-service activity was performed.
+- Collected information was used only for the assigned educational exercise.
+- Results may vary because public search engines and reconnaissance sources change over time.
+
+---
+
+## 📚 Learning Outcomes
+
+After completing this module, the following concepts were practiced:
+
+- Passive reconnaissance
+- Domain footprinting
+- Email enumeration
+- Subdomain discovery
+- Search-engine-based reconnaissance
+- theHarvester command-line usage
+- Source selection and result limits
+- Evidence collection and documentation
+- Responsible security research
+
+---
+
+## 📸 Evidence Summary
+
+The repository contains screenshots documenting the execution and output of both assigned theHarvester tasks.
+
+The evidence demonstrates:
+
+- Tool execution
+- Target configuration
+- Search-source configuration
+- Result limits
+- Reconnaissance output
+
+---
+
+## ⚠️ Disclaimer
+
+This project was completed as part of an authorized cybersecurity training exercise. The techniques demonstrated are intended for educational and legitimate security-testing purposes only.
+
+Unauthorized reconnaissance or information gathering against systems or organizations without permission may violate applicable laws, policies, or terms of service.
+
+---
+
+## ✅ Conclusion
+
+W2-PM4 provided practical experience with **theHarvester** for passive reconnaissance and domain footprinting.
+
+The module demonstrated how different information sources and search limits can be used to gather publicly available reconnaissance information. The completed tasks and screenshots have been documented as evidence for the Week 2 cybersecurity internship project.
 
 ---
 
@@ -565,7 +670,9 @@ The scan identified **6 live hosts**.
 
 The final Nmap output reported:
 
-    Nmap done: 256 IP addresses (6 hosts up) scanned in 3.85 seconds
+```text
+Nmap done: 256 IP addresses (6 hosts up) scanned in 3.85 seconds
+```
 
 Therefore:
 
@@ -623,12 +730,14 @@ The network topology generated during the Zenmap exercise was saved as:
 
 ## 📂 W2-PM5 Repository Structure
 
-    WK2-PM5-Zenmap/
-    ├── topology grap.pdf
-    ├── zenmap-1.png
-    ├── zenmap.png
-    ├── zenmap_output.png
-    └── README.md
+```text
+WK2-PM5-Zenmap/
+├── topology grap.pdf
+├── zenmap-1.png
+├── zenmap.png
+├── zenmap_output.png
+└── README.md
+```
 
 ---
 
@@ -711,73 +820,74 @@ Completion of Week 2 provided practical experience in:
 
 # 📁 Complete Repository Structure
 
-    WEEK-2-CYBERSECURITY-PROJECT/
-    │
-    ├── README.md
-    │
-    ├── WK2-PM-FINAL-REPORT/
-    │   └── Report
-    │
-    ├── WK2-PM1-Footprinting/
-    │   ├── Task-1-WHOIS/
-    │   │   ├── screenshot_whois.png
-    │   │   └── whois_networkwalks.txt
-    │   │
-    │   ├── Task-2-WhatWeb/
-    │   │   ├── screenshot_WhatWeb.png
-    │   │   └── whatweb_networkwalks.txt
-    │   │
-    │   ├── Task-3-NSLookup/
-    │   │   ├── nslookup_networkwalks.txt
-    │   │   └── screenshot_NSLookup.png
-    │   │
-    │   ├── Task-4-cURL/
-    │   │   ├── curl_networkwalks.txt
-    │   │   └── screenshot_cURL.png
-    │   │
-    │   ├── Task-5-Wafw00f/
-    │   │   ├── screenshot_WafW00f.png
-    │   │   └── wafw00f_networkwalks.txt
-    │   │
-    │   └── Task-6-DNSRecon/
-    │       ├── README.md
-    │       ├── screenshot_DNSRecon.png
-    │       └── dnsrecon_networkwalks.txt
-    │
-    ├── WK2-PM2-GHDB/
-    │   ├── Task-1-GHDB/
-    │   │   ├── ghdb_live_cam_result.txt
-    │   │   └── ghdb_screenshot.png
-    │   │
-    │   └── Task-2-Mathematics-PDF/
-    │       ├── README.md
-    │       └── W2-PM2 -Footprinting-&-Reconnaissance-with-GHDB-TABLE.pdf
-    │
-    ├── WK2-PM3-Maltego/
-    │   ├── PM3-maltego.mp4
-    │   ├── README.md
-    │   ├── Task-01.png
-    │   ├── Task02-output.txt
-    │   ├── maltego Task02-1.png
-    │   ├── maltego Task02-2.png
-    │   ├── maltego Task02-3.png
-    │   ├── maltego Task02-4.png
-    │   └── maltego Task02-5.png
-    │
-    ├── WK2-PM4-theHarvester/
-    │   ├── README.md
-    │   └── img/
-    │       ├── theHarvester-01.png
-    │       ├── theHarvester_task_01.png
-    │       ├── theHarvester_task_02.png
-    │       └── theHarvester_task_02_output.png
-    │
-    └── WK2-PM5-Zenmap/
-        ├── topology grap.pdf
-        ├── zenmap-1.png
-        ├── zenmap.png
-        ├── zenmap_output.png
-        └── README.md
+```text
+WEEK-2-CYBERSECURITY-PROJECT/
+│
+├── README.md
+│
+├── WK2-PM-FINAL-REPORT/
+│   └── Report
+│
+├── WK2-PM1-Footprinting/
+│   ├── Task-1-WHOIS/
+│   │   ├── screenshot_whois.png
+│   │   └── whois_networkwalks.txt
+│   │
+│   ├── Task-2-WhatWeb/
+│   │   ├── screenshot_WhatWeb.png
+│   │   └── whatweb_networkwalks.txt
+│   │
+│   ├── Task-3-NSLookup/
+│   │   ├── nslookup_networkwalks.txt
+│   │   └── screenshot_NSLookup.png
+│   │
+│   ├── Task-4-cURL/
+│   │   ├── curl_networkwalks.txt
+│   │   └── screenshot_cURL.png
+│   │
+│   ├── Task-5-Wafw00f/
+│   │   ├── screenshot_WafW00f.png
+│   │   └── wafw00f_networkwalks.txt
+│   │
+│   └── Task-6-DNSRecon/
+│       ├── README.md
+│       ├── screenshot_DNSRecon.png
+│       └── dnsrecon_networkwalks.txt
+│
+├── WK2-PM2-GHDB/
+│   ├── Task-1-GHDB/
+│   │   ├── ghdb_live_cam_result.txt
+│   │   └── ghdb_screenshot.png
+│   │
+│   └── Task-2-Mathematics-PDF/
+│       ├── README.md
+│       └── W2-PM2 -Footprinting-&-Reconnaissance-with-GHDB-TABLE.pdf
+│
+├── WK2-PM3-Maltego/
+│   ├── PM3-maltego.mp4
+│   ├── README.md
+│   ├── Task-01.png
+│   ├── Task02-output.txt
+│   ├── maltego Task02-1.png
+│   ├── maltego Task02-2.png
+│   ├── maltego Task02-3.png
+│   ├── maltego Task02-4.png
+│   └── maltego Task02-5.png
+│
+├── WK2-PM4-theHarvester/
+│   ├── README.md
+│   ├── theHarvester-01.png
+│   ├── theHarvester_task_01.png
+│   ├── theHarvester_task_02.png
+│   └── theHarvester_task_02_output.png
+│
+└── WK2-PM5-Zenmap/
+    ├── topology grap.pdf
+    ├── zenmap-1.png
+    ├── zenmap.png
+    ├── zenmap_output.png
+    └── README.md
+```
 
 ---
 
@@ -785,7 +895,7 @@ Completion of Week 2 provided practical experience in:
 
 This repository is intended for educational and authorized cybersecurity training purposes.
 
-The techniques and tools demonstrated in this project should only be used against systems, domains, networks, and resources for which explicit authorization has been provided.
+The techniques and tools demonstrated in this project should only be used against systems, domains, networks, and resources for which appropriate authorization has been provided.
 
 Unauthorized scanning, reconnaissance, access attempts, exploitation, or data collection may violate organizational policies and applicable laws.
 
