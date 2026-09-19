@@ -89,6 +89,10 @@ This task demonstrates how using multiple passive information sources can produc
 ![theHarvester Task 2](./theHarvester_task_02.png)
 
 **Figure 3: theHarvester Task 2 execution**
+
+![theHarvester Task 2 Output](./theHarvester_task_02_output.png)
+
+**Figure 4: theHarvester Task 2 output**
 ---
 
 # 📂 Repository Structure
@@ -192,7 +196,3 @@ Week 2 Project
 ---
 
 **End of README**
-
-![theHarvester Task 2 Output](./theHarvester_task_02_output.png)
-
-**Figure 4: theHarvester Task 2 output**
