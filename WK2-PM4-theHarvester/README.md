@@ -58,10 +58,15 @@ theHarvester -d microsoft.com -l 1000 -b baidu
 
 This command was used to perform passive reconnaissance against the assigned domain and collect publicly available information indexed through the selected source.
 
-### Evidence
+### 📸 Evidence
 
-- `img/theHarvester_task_01.png`
-- `img/theHarvester-01.png`
+![theHarvester Task 1](./theHarvester_task_01.png)
+
+**Figure 1: theHarvester Task 1 execution**
+
+![theHarvester Task 1 Output](./theHarvester-01.png)
+
+**Figure 2: theHarvester reconnaissance output**
 
 ---
 
@@ -79,23 +84,22 @@ theHarvester -d microsoft.com -l 50 -b all
 
 This task demonstrates how using multiple passive information sources can produce a broader reconnaissance dataset.
 
-### Evidence
+### 📸 Evidence
 
-- `img/theHarvester_task_02.png`
-- `img/theHarvester_task_02_output.png`
+![theHarvester Task 2](./theHarvester_task_02.png)
 
+**Figure 3: theHarvester Task 2 execution**
 ---
 
 # 📂 Repository Structure
 
 ```text
 WK2-PM4-theHarvester/
-├── img/
-│   ├── theHarvester-01.png
-│   ├── theHarvester_task_01.png
-│   ├── theHarvester_task_02.png
-│   └── theHarvester_task_02_output.png
-└── README.md
+├── README.md
+├── theHarvester-01.png
+├── theHarvester_task_01.png
+├── theHarvester_task_02.png
+└── theHarvester_task_02_output.png
 ```
 
 ---
@@ -148,18 +152,17 @@ After completing this module, the following concepts were practiced:
 
 ---
 
-# 📸 Evidence
+# 📸 Evidence Summary
 
-The `img/` directory contains screenshots documenting the execution of both assigned theHarvester tasks.
+The repository contains screenshots documenting the execution and output of both assigned theHarvester tasks.
 
-These screenshots provide evidence of:
+The evidence demonstrates:
 
 - Tool execution
 - Target configuration
 - Search-source configuration
 - Result limits
 - Reconnaissance output
-
 ---
 
 # ⚠️ Disclaimer
@@ -189,3 +192,7 @@ Week 2 Project
 ---
 
 **End of README**
+
+![theHarvester Task 2 Output](./theHarvester_task_02_output.png)
+
+**Figure 4: theHarvester Task 2 output**
